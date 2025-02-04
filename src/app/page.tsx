@@ -1,7 +1,6 @@
 import { Hero } from "@/components/Hero";
 import Journey from "@/components/Journey";
 import TechStack from "@/components/TechStack";
-import { Grab, Hand } from "lucide-react";
 
 export default function Home() {
   return (
