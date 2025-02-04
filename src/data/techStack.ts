@@ -6,8 +6,11 @@ import {
   TailwindcssOriginal,
   TypescriptOriginal,
 } from "devicons-react";
-import { Props } from "devicons-react/lib/icons/TailwindcssOriginal";
 import { FunctionComponent } from "react";
+
+export interface Props extends React.SVGProps<SVGElement> {
+  size?: number | string;
+}
 
 export const TECH_STACK: {
   techName: string;
