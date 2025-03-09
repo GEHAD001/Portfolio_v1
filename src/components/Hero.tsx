@@ -11,7 +11,7 @@ export function Hero() {
 
       <div className="relative z-20 flex flex-col items-center text-center">
         <div className="mt-5 sm:mt-0 md:mb-8 lg:mb-12 space-y-2 sm:space-y-3 md:space-y-4">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold bg-gradient-to-br from-foreground to-muted-foreground bg-clip-text text-transparent">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold bg-linear-to-br from-foreground to-muted-foreground bg-clip-text text-transparent">
             <span className="block">Hey, I&apos;m Gehad Gadallah</span>
             <span className="block mt-2 text-2xl sm:text-3xl md:text-4xl font-semibold text-muted-foreground">
               <Typing

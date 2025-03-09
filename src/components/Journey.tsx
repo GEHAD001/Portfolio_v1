@@ -46,7 +46,7 @@ function Journey() {
 
 function CardLayout({ children }: { children: ReactNode }) {
   return (
-    <div className="w-full flex flex-col sm:flex-row gap-4 sm:gap-8 lg:gap-12 justify-between items-center border rounded-lg px-4 py-4 sm:px-6 sm:py-5 lg:px-8 lg:py-6 bg-white shadow-sm transition-all duration-300 hover:shadow-md">
+    <div className="w-full flex flex-col sm:flex-row gap-4 sm:gap-8 lg:gap-12 justify-between items-center border rounded-lg px-4 py-4 sm:px-6 sm:py-5 lg:px-8 lg:py-6 bg-white shadow-xs transition-all duration-300 hover:shadow-md">
       {children}
     </div>
   );
@@ -54,7 +54,7 @@ function CardLayout({ children }: { children: ReactNode }) {
 
 function CardIcon({ children }: { children: ReactNode }) {
   return (
-    <div className="flex-shrink-0 w-1/3 sm:w-1/4 md:w-1/5 lg:w-1/6 flex justify-center items-center p-2">
+    <div className="shrink-0 w-1/3 sm:w-1/4 md:w-1/5 lg:w-1/6 flex justify-center items-center p-2">
       <div className="relative w-full aspect-square">{children}</div>
     </div>
   );

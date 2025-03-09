@@ -14,7 +14,7 @@ function TechStack() {
           "md:[mask-image:radial-gradient(500px_circle_at_center,white,transparent)]"
         )}
       />
-      <h1 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+      <h1 className="text-3xl md:text-4xl font-bold bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
         Tech Stack
       </h1>
 
@@ -32,7 +32,7 @@ function TechStack() {
 
 function TechLayout({ children }: { children: ReactNode }) {
   return (
-    <div className="relative w-full max-w-[32rem] border rounded-lg px-4 py-4 sm:px-6 sm:py-5 lg:px-8 lg:py-6 bg-white shadow-sm transition-all duration-300 hover:shadow-md hover:-translate-y-1">
+    <div className="relative w-full max-w-[32rem] border rounded-lg px-4 py-4 sm:px-6 sm:py-5 lg:px-8 lg:py-6 bg-white shadow-xs transition-all duration-300 hover:shadow-md hover:-translate-y-1">
       {children}
     </div>
   );
