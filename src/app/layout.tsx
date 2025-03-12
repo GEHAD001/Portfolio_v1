@@ -2,7 +2,6 @@ import { ThemeProvider } from "@/context/ThemeProvider";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
 import { Toaster } from "sonner";
 
 const geistSans = Geist({
@@ -28,11 +27,10 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased mx-auto lg:w-[65%] p-4`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden`}
       >
         <ThemeProvider attribute="class" defaultTheme="light">
           <Toaster />
-          <Navbar />
           {children}
         </ThemeProvider>
       </body>
